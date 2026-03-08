@@ -1,10 +1,25 @@
 # cursor-rules
 
-Production-grade Cursor rules for AI-native full-stack development. 15 rules covering architecture, backend, frontend, database, caching, RAG, agents, security, testing, observability, DevOps, and more.
+Production-grade Cursor rules + project docs for AI-native full-stack development.
 
-Built for engineers who ship real products with AI coding tools.
+15 rules + 5 doc templates. Drop into any project. Your AI coding tool immediately thinks like a senior engineer.
 
 ## What's inside
+
+```
+cursor-rules/
+├── rules/                          # 15 Cursor rules (.mdc)
+├── docs/                           # 5 project doc templates
+│   ├── PRD.md                      # Product requirements
+│   ├── ARCHITECTURE.md             # System architecture + data flow
+│   ├── API_SPEC.md                 # API endpoints + response format
+│   ├── DB_SCHEMA.md                # Tables, columns, indexes, rules
+│   └── DEPLOYMENT.md               # Local + cloud + CI/CD setup
+├── install.sh                      # One-liner installer
+└── README.md
+```
+
+### Rules
 
 ```
 rules/
@@ -24,6 +39,21 @@ rules/
 ├── 90-devops-deployment.mdc     # Docker / AWS / Vercel / VPS / CI-CD
 └── 99-response-style.mdc        # Response behavior / minimal changes (alwaysApply)
 ```
+
+## Why docs matter
+
+Rules tell AI **how** to write code. Docs tell AI **what** you're building.
+
+The `00-global-architect.mdc` rule reads your docs automatically:
+```
+Before implementing, align with docs/PRD.md, docs/ARCHITECTURE.md,
+docs/API_SPEC.md, docs/DB_SCHEMA.md, and docs/DEPLOYMENT.md if present.
+```
+
+Without docs: AI guesses your product structure.
+With docs: AI knows your tables, endpoints, layers, and deployment targets.
+
+**The docs are templates.** Replace placeholder values with your product details. Remove sections you don't need. They're designed for an AI SaaS product but adapt to anything.
 
 ## Install
 
