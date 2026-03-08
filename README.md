@@ -1,0 +1,144 @@
+# cursor-rules
+
+Production-grade Cursor rules for AI-native full-stack development. 15 rules covering architecture, backend, frontend, database, caching, RAG, agents, security, testing, observability, DevOps, and more.
+
+Built for engineers who ship real products with AI coding tools.
+
+## What's inside
+
+```
+rules/
+├── 00-global-architect.mdc      # Principal architect mindset (alwaysApply)
+├── 10-backend-fastapi.mdc       # FastAPI / clean architecture
+├── 20-frontend-nextjs.mdc       # Next.js / TypeScript / components
+├── 30-database-postgres.mdc     # PostgreSQL / migrations / repositories
+├── 35-api-contracts.mdc         # API versioning / schema evolution
+├── 40-cache-redis.mdc           # Redis / caching / queues
+├── 45-environment-config.mdc    # Env vars / secrets / config validation (alwaysApply)
+├── 50-rag-system.mdc            # RAG / chunking / retrieval / ingestion
+├── 55-data-model-versioning.mdc # Dataset versioning / checkpoints / reproducibility
+├── 60-agents.mdc                # AI agents / tools / memory / orchestration
+├── 70-security.mdc              # Security / prompt injection / infra hygiene (alwaysApply)
+├── 80-testing-quality.mdc       # Testing philosophy / code quality (alwaysApply)
+├── 85-error-observability.mdc   # Error handling / logging / health checks (alwaysApply)
+├── 90-devops-deployment.mdc     # Docker / AWS / Vercel / VPS / CI-CD
+└── 99-response-style.mdc        # Response behavior / minimal changes (alwaysApply)
+```
+
+## Install
+
+### One-liner (recommended)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/cursor-rules/main/install.sh | bash
+```
+
+### Manual
+
+```bash
+git clone https://github.com/aiagentwithdhruv/cursor-rules.git
+cp cursor-rules/rules/*.mdc your-project/.cursor/rules/
+```
+
+### Pick specific rules
+
+Only need backend + security + testing?
+
+```bash
+mkdir -p .cursor/rules
+curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/cursor-rules/main/rules/00-global-architect.mdc -o .cursor/rules/00-global-architect.mdc
+curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/cursor-rules/main/rules/10-backend-fastapi.mdc -o .cursor/rules/10-backend-fastapi.mdc
+curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/cursor-rules/main/rules/70-security.mdc -o .cursor/rules/70-security.mdc
+curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/cursor-rules/main/rules/80-testing-quality.mdc -o .cursor/rules/80-testing-quality.mdc
+```
+
+## How it works
+
+Cursor loads `.mdc` files from `.cursor/rules/` with different trigger modes:
+
+| Mode | When it fires | Rules using it |
+|------|--------------|----------------|
+| **Always Apply** | Every chat + Cmd+K | 00, 45, 70, 80, 85, 99 |
+| **Glob match** | When you edit matching files | 10, 20, 30, 35, 40, 50, 55, 60, 90 |
+
+Rules are numbered with gaps (00, 10, 20...) so you can insert custom rules between them without renaming files.
+
+## What each rule does
+
+| # | Rule | What it enforces |
+|---|------|-----------------|
+| 00 | **Global Architect** | Think architect-first. Clean architecture. Separation of concerns. No shortcuts. |
+| 10 | **Backend FastAPI** | Thin routes. Business logic in services. DB in repositories. Pydantic schemas. |
+| 20 | **Frontend Next.js** | TypeScript. Small components. Centralized API clients. Accessible markup. |
+| 30 | **Database PostgreSQL** | Migrations for everything. Indexes. Foreign keys. No raw SQL in routes. |
+| 35 | **API Contracts** | Version APIs. Typed schemas. Consistent error format. Deprecation process. |
+| 40 | **Cache Redis** | Intentional TTLs. Stable key naming. No unbounded payloads. |
+| 45 | **Environment Config** | Validate at startup. .env.example. Secret managers in prod. |
+| 50 | **RAG System** | Separate ingestion from generation. Chunk metadata. Source attribution. |
+| 55 | **Data & Model Versioning** | Version datasets. Named checkpoints. Pinned dependencies. Reproducible training. |
+| 60 | **Agents** | Tool schemas. Validated outputs. Separate memory layers. Supervisor patterns. |
+| 70 | **Security** | No hardcoded secrets. Input validation. Prompt injection resistance. Least privilege. |
+| 80 | **Testing & Quality** | Tests for critical paths. Deterministic units. No live API deps. Linting. |
+| 85 | **Error & Observability** | Structured errors. Request tracing. Health checks. No silent failures. |
+| 90 | **DevOps & Deployment** | Docker multi-stage. AWS least-privilege. Vercel preview deploys. VPS hardening. |
+| 99 | **Response Style** | Minimal changes. Production code. No toy implementations. |
+
+## Customization
+
+### Add your own rules
+
+Create a new `.mdc` file in `.cursor/rules/` with a number that fits:
+
+```mdc
+---
+description: My custom Python rules
+globs: "**/*.py"
+---
+
+Python rules:
+- Use Black formatter with line length 100.
+- Use ruff for linting.
+- Prefer dataclasses over plain dicts for structured data.
+```
+
+### Modify existing rules
+
+Edit any `.mdc` file directly. Changes take effect immediately in Cursor.
+
+### Stack-specific presets
+
+Don't use Next.js? Replace `20-frontend-nextjs.mdc` with your framework:
+- `20-frontend-react.mdc` for React + Vite
+- `20-frontend-svelte.mdc` for SvelteKit
+- `20-frontend-vue.mdc` for Nuxt
+
+Don't use FastAPI? Replace `10-backend-fastapi.mdc`:
+- `10-backend-express.mdc` for Express/Node
+- `10-backend-django.mdc` for Django
+- `10-backend-go.mdc` for Go
+
+## Also works with Claude Code
+
+Copy the rules into a `CLAUDE.md` at your project root — Claude Code reads it automatically. The content is the same, just remove the YAML frontmatter.
+
+## Why gap numbering?
+
+Rules use 00, 10, 20... (not 1, 2, 3...) so you can insert between them:
+
+```
+00-global-architect.mdc
+05-your-custom-rule.mdc     ← fits right in
+10-backend-fastapi.mdc
+```
+
+No renaming. No conflicts.
+
+## Credits
+
+Built by [@AiwithDhruv](https://github.com/aiagentwithdhruv) with Claude Code.
+
+Production-tested across 30+ projects spanning AI agents, RAG systems, SaaS products, and client work.
+
+## License
+
+MIT — use it, fork it, ship better code.
