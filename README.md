@@ -1,7 +1,7 @@
 # skills
 
 <p align="center">
-  <img src="assets/hero.png" alt="AI Coding Rules — 15 Rules + 9 Templates = Your AI Writes Like a Senior Engineer" width="100%">
+  <img src="assets/hero.png" alt="Skills — 15 Rules + 9 Templates = Your AI Writes Like a Senior Engineer" width="100%">
 </p>
 
 Production-grade rules, docs, and patterns for AI-native full-stack development. Works with **Cursor** and **Claude Code**.
@@ -159,7 +159,7 @@ cd skills/claude
 
 ## Related
 
-- **[skills](https://github.com/kaushraj1/skills)** — 38 reusable AI agent skills (lead gen, email, video, deployment). Install: `npx skills add kaushraj1/skills`
+- **[GitHub](https://github.com/kaushraj1)** — More projects and tools by kaushal. Visit: `https://github.com/kaushraj1`
 
 `skills` = **how to set up your AI coding environment**
 `skills` = **what to automate with AI agents**
