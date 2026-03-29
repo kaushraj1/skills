@@ -159,7 +159,7 @@ cd skills/claude
 
 ## Related
 
-- **[skills](https://github.com/kaushraj1/skills)** — 38 reusable AI agent skills (lead gen, email, video, deployment). Install: `npx skills add kaushraj1/ai-coding-rules`
+- **[skills](https://github.com/kaushraj1/skills)** — 38 reusable AI agent skills (lead gen, email, video, deployment). Install: `npx skills add kaushraj1/skills`
 
 `skills` = **how to set up your AI coding environment**
 `skills` = **what to automate with AI agents**
