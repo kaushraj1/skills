@@ -1,15 +1,15 @@
 #!/bin/bash
-# Install ai-coding-rules into your project
-# Usage: curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
+# Install skills into your project
+# Usage: curl -fsSL https://raw.githubusercontent.com/kaushraj1/skills/main/install.sh | bash
 
 set -e
 
-REPO="https://github.com/kaushraj1/ai-coding-rules.git"
+REPO="https://github.com/kaushraj1/skills.git"
 RULES_DIR=".cursor/rules"
 DOCS_DIR="docs"
 TEMP_DIR=$(mktemp -d)
 
-echo "Installing ai-coding-rules..."
+echo "Installing skills..."
 echo ""
 
 # Clone repo

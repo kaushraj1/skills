@@ -32,7 +32,7 @@ claude/
 ### Option 1: Full rules (recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/claude/CLAUDE.md -o CLAUDE.md
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/skills/main/claude/CLAUDE.md -o CLAUDE.md
 ```
 
 ### Option 2: Compose custom
@@ -40,8 +40,8 @@ curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/clau
 Pick only the rules you need:
 
 ```bash
-git clone https://github.com/kaushraj1/ai-coding-rules.git
-cd ai-coding-rules/claude
+git clone https://github.com/kaushraj1/skills.git
+cd skills/claude
 
 # All rules
 ./compose.sh > ~/my-project/CLAUDE.md
