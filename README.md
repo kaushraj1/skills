@@ -1,4 +1,4 @@
-# ai-coding-rules
+# skills
 
 <p align="center">
   <img src="assets/hero.png" alt="AI Coding Rules — 15 Rules + 9 Templates = Your AI Writes Like a Senior Engineer" width="100%">
@@ -12,24 +12,24 @@ Production-grade rules, docs, and patterns for AI-native full-stack development.
 
 ### Cursor
 ```bash
-curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/skills/main/install.sh | bash
 ```
 
 ### Claude Code
 ```bash
-curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/claude/CLAUDE.md -o CLAUDE.md
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/skills/main/claude/CLAUDE.md -o CLAUDE.md
 ```
 
 ### Both (recommended)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
-curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/claude/CLAUDE.md -o CLAUDE.md
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/skills/main/claude/CLAUDE.md -o CLAUDE.md
 ```
 
 ## What's inside
 
 ```
-ai-coding-rules/
+skills/
 ├── rules/                          # 15 Cursor rules (.mdc)
 ├── claude/                         # Claude Code setup
 │   ├── CLAUDE.md                   # All 15 rules in one file
@@ -150,7 +150,7 @@ Claude Code — add a section to `CLAUDE.md`.
 
 Pick only what you need:
 ```bash
-cd ai-coding-rules/claude
+cd skills/claude
 ./compose.sh 00 10 30 70 80 99 > ~/project/CLAUDE.md    # Backend only
 ./compose.sh 00 20 70 80 99 > ~/project/CLAUDE.md        # Frontend only
 ./compose.sh 00 50 55 60 70 99 > ~/project/CLAUDE.md     # AI/ML only
@@ -159,14 +159,14 @@ cd ai-coding-rules/claude
 
 ## Related
 
-- **[skills](https://github.com/kaushraj1/ai-coding-rules)** — 38 reusable AI agent skills (lead gen, email, video, deployment). Install: `npx skills add kaushraj1/ai-coding-rules`
+- **[skills](https://github.com/kaushraj1/skills)** — 38 reusable AI agent skills (lead gen, email, video, deployment). Install: `npx skills add kaushraj1/ai-coding-rules`
 
-`ai-coding-rules` = **how to set up your AI coding environment**
+`skills` = **how to set up your AI coding environment**
 `skills` = **what to automate with AI agents**
 
 ## Credits
 
-Built by [@kaushraj1](https://github.com/kaushraj1/ai-coding-rules) with Claude Code.
+Built by [@kaushal](https://github.com/kaushraj1) with Claude Code.
 
 Production-tested across 30+ projects — AI agents, RAG systems, SaaS products, and client work.
 
