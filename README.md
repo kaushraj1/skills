@@ -12,18 +12,18 @@ Production-grade rules, docs, and patterns for AI-native full-stack development.
 
 ### Cursor
 ```bash
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
 ```
 
 ### Claude Code
 ```bash
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/claude/CLAUDE.md -o CLAUDE.md
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/claude/CLAUDE.md -o CLAUDE.md
 ```
 
 ### Both (recommended)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/install.sh | bash
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/claude/CLAUDE.md -o CLAUDE.md
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/claude/CLAUDE.md -o CLAUDE.md
 ```
 
 ## What's inside
@@ -159,14 +159,14 @@ cd ai-coding-rules/claude
 
 ## Related
 
-- **[skills](https://github.com/aiagentwithdhruv/skills)** — 38 reusable AI agent skills (lead gen, email, video, deployment). Install: `npx skills add aiagentwithdhruv/skills`
+- **[skills](https://github.com/kaushraj1/ai-coding-rules)** — 38 reusable AI agent skills (lead gen, email, video, deployment). Install: `npx skills add kaushraj1/ai-coding-rules`
 
 `ai-coding-rules` = **how to set up your AI coding environment**
 `skills` = **what to automate with AI agents**
 
 ## Credits
 
-Built by [@AiwithDhruv](https://github.com/aiagentwithdhruv) with Claude Code.
+Built by [@kaushraj1](https://github.com/kaushraj1/ai-coding-rules) with Claude Code.
 
 Production-tested across 30+ projects — AI agents, RAG systems, SaaS products, and client work.
 

@@ -15,7 +15,7 @@ Hand-drawn whiteboard infographic on white lined notebook paper, sitting on a na
 Hand-written bold title: "AI Coding Rules"
 Below it: "15 Rules + 9 Templates = Your AI Writes Like a Senior Engineer" with yellow highlight on "Senior Engineer"
 Cyan marker underline stroke under the main title.
-TOP-RIGHT: "AiwithDhruv" in bold cyan marker inside a hand-drawn rounded rectangle badge. Smaller text below: "youtube | github | linkedin"
+TOP-RIGHT: "kaushraj1" in bold cyan marker inside a hand-drawn rounded rectangle badge. Smaller text below: "youtube | github | linkedin"
 
 === LEFT COLUMN — "What You Get" ===
 Header: "What You Get" inside a hand-drawn box
@@ -128,8 +128,8 @@ Three items in a row, each circled with yellow highlight:
 Small star doodles around the stats
 
 === BOTTOM RIGHT — Author + Branding ===
-"AiwithDhruv" with cyan lightning bolt
-"@aiwithdhruv" and "github.com/aiagentwithdhruv"
+"kaushraj1" with cyan lightning bolt
+"@kaushraj1" and "github.com/kaushraj1/ai-coding-rules"
 "AD" monogram in a hand-drawn circle
 
 === AMBIENT DETAILS ===
@@ -139,7 +139,7 @@ Small star doodles around the stats
 - Blue pen lying on the desk
 - Small doodle arrows and stars in empty spaces
 - Wooden desk texture at all edges
-- Faint "AiwithDhruv" watermark diagonally across center in light grey
+- Faint "kaushraj1" watermark diagonally across center in light grey
 
 === STYLE — CRITICAL ===
 - Real black marker on white paper — authentic hand-drawn feel
@@ -201,9 +201,9 @@ Also included:
 This isn't theory. It's battle-tested across 30+ real projects.
 
 Install in 10 seconds:
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
 
-GitHub: github.com/aiagentwithdhruv/ai-coding-rules
+GitHub: github.com/kaushraj1/ai-coding-rules
 
 Your AI is only as good as the rules you give it.
 
@@ -249,7 +249,7 @@ Link in comments.
 **Comment to post immediately after:**
 ```
 Here's the repo (free, MIT license):
-github.com/aiagentwithdhruv/ai-coding-rules
+github.com/kaushraj1/ai-coding-rules
 
 15 rules + 9 doc templates.
 Works with Cursor (.mdc) and Claude Code (CLAUDE.md).
@@ -316,14 +316,14 @@ I built 15 rules across 30+ real projects (AI agents, RAG systems, SaaS, client 
 + 𝟵 𝗱𝗼𝗰 𝘁𝗲𝗺𝗽𝗹𝗮𝘁𝗲𝘀: PRD, Architecture, API Spec, DB Schema, Deployment, Skills, Agents, Loadout, MCP Server
 
 Install in 10 seconds:
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
 
 Or compose your own:
 ./compose.sh 00 10 30 70 80 99
 
 Free. MIT license. Star it if it saves you time.
 
-github.com/aiagentwithdhruv/ai-coding-rules
+github.com/kaushraj1/ai-coding-rules
 
 #CursorIDE #ClaudeCode #AIEngineering #OpenSource #CodingRules #DevTools #AI #SoftwareEngineering #WebDev #Programming
 ```
@@ -347,7 +347,7 @@ Now my AI never hardcodes secrets, always uses clean architecture, writes migrat
 
 The difference between "AI-assisted coding" and "AI-native engineering" is rules.
 
-github.com/aiagentwithdhruv/ai-coding-rules
+github.com/kaushraj1/ai-coding-rules
 
 #CursorIDE #ClaudeCode #AIcoding #DevTools #OpenSource #Programming #BuildInPublic
 ```
@@ -383,7 +383,7 @@ Most developers using Cursor or Claude Code don't realize:
 
 This took me 30+ projects to figure out. Took 10 seconds to install.
 
-github.com/aiagentwithdhruv/ai-coding-rules
+github.com/kaushraj1/ai-coding-rules
 
 Free. Open source. MIT license.
 
@@ -409,7 +409,7 @@ A thread 🧵
 ```
 𝗦𝘁𝗲𝗽 𝟭: Install the rules (10 seconds)
 
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
 
 This drops 15 engineering rules into your project as:
 • .cursor/rules/*.mdc (for Cursor)
@@ -460,7 +460,7 @@ No more:
 
 Tested across 30+ projects — AI agents, RAG systems, SaaS, client work.
 
-github.com/aiagentwithdhruv/ai-coding-rules
+github.com/kaushraj1/ai-coding-rules
 
 Free. MIT. Star it if it helps. ⭐
 
@@ -492,7 +492,7 @@ The AI is smart enough. The problem is we give it zero standards.
 
 One config file = your AI thinks like a senior engineer on every project.
 
-github.com/aiagentwithdhruv/ai-coding-rules
+github.com/kaushraj1/ai-coding-rules
 
 #CursorIDE #ClaudeCode #AIcoding #OpenSource #DevTools
 ```
@@ -554,9 +554,9 @@ I open-sourced 15 production-grade rules + 9 doc templates that make your AI thi
 Works with Cursor (.mdc files) and Claude Code (CLAUDE.md).
 
 Install in 10 seconds:
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
 
-GitHub: https://github.com/aiagentwithdhruv/ai-coding-rules
+GitHub: https://github.com/kaushraj1/ai-coding-rules
 
 What's inside:
 - 15 engineering rules (architecture, backend, frontend, database, security, testing, DevOps)
@@ -597,14 +597,14 @@ Step 3: Your AI now follows production engineering standards
 Works with both Cursor and Claude Code. Zero conflict.
 
 Install:
-curl -fsSL https://raw.githubusercontent.com/aiagentwithdhruv/ai-coding-rules/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kaushraj1/ai-coding-rules/main/install.sh | bash
 
 Compose examples:
 ./compose.sh 00 10 30 70 80 99    # Backend only
 ./compose.sh 00 20 70 80 99        # Frontend only
 ./compose.sh 00 50 55 60 70 99     # AI/ML only
 
-GitHub: https://github.com/aiagentwithdhruv/ai-coding-rules
+GitHub: https://github.com/kaushraj1/ai-coding-rules
 
 15 rules + 9 doc templates. Free. MIT license.
 
@@ -715,4 +715,4 @@ Cinematic movie still, dark moody workspace. Young Indian male developer with sh
 
 ---
 
-*Generated by AiwithDhruv's content pipeline. Reuse this template for any future open-source launch.*
+*Generated by kaushraj1's content pipeline. Reuse this template for any future open-source launch.*
